@@ -1,0 +1,10 @@
+G:\Projetos_Internos\vsc\cadastro_senai\bin\Debug\netcoreapp2.0\cadastro_senai.deps.json
+G:\Projetos_Internos\vsc\cadastro_senai\bin\Debug\netcoreapp2.0\cadastro_senai.runtimeconfig.json
+G:\Projetos_Internos\vsc\cadastro_senai\bin\Debug\netcoreapp2.0\cadastro_senai.runtimeconfig.dev.json
+G:\Projetos_Internos\vsc\cadastro_senai\bin\Debug\netcoreapp2.0\cadastro_senai.dll
+G:\Projetos_Internos\vsc\cadastro_senai\bin\Debug\netcoreapp2.0\cadastro_senai.pdb
+G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.csproj.CoreCompileInputs.cache
+G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.AssemblyInfoInputs.cache
+G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.AssemblyInfo.cs
+G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.dll
+G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.pdb
