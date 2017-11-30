@@ -1,6 +1,6 @@
 namespace cadastro_senai.Dominio
 {
-    public class Cliente
+    public class Aluno
     {
         public int Id { get; set; }
         public string Nome { get; set; }

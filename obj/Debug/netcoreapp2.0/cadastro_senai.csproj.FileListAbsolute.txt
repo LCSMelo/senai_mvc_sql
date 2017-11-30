@@ -8,3 +8,13 @@ G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.A
 G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.AssemblyInfo.cs
 G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.dll
 G:\Projetos_Internos\vsc\cadastro_senai\obj\Debug\netcoreapp2.0\cadastro_senai.pdb
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\bin\Debug\netcoreapp2.0\cadastro_senai.deps.json
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\bin\Debug\netcoreapp2.0\cadastro_senai.runtimeconfig.json
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\bin\Debug\netcoreapp2.0\cadastro_senai.runtimeconfig.dev.json
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\bin\Debug\netcoreapp2.0\cadastro_senai.dll
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\bin\Debug\netcoreapp2.0\cadastro_senai.pdb
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\obj\Debug\netcoreapp2.0\cadastro_senai.csproj.CoreCompileInputs.cache
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\obj\Debug\netcoreapp2.0\cadastro_senai.AssemblyInfoInputs.cache
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\obj\Debug\netcoreapp2.0\cadastro_senai.AssemblyInfo.cs
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\obj\Debug\netcoreapp2.0\cadastro_senai.dll
+c:\Users\admin.DIGIPROD\Documents\Pessoal\aulas_backend\senai_mvc_sql\obj\Debug\netcoreapp2.0\cadastro_senai.pdb

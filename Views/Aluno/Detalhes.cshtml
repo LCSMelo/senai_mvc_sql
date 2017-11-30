@@ -1,11 +1,11 @@
-@model cadastro_senai.Dominio.Cliente 
+@model cadastro_senai.Dominio.Aluno 
 
 @{   
     ViewData["Title"] = "Detalhes";   
 }   
-<h2>Details</h2>   
+<h2>Detalhes</h2>   
 <div>   
-    <h4>Employees</h4>   
+    <h4>Aluno</h4>   
     <hr />   
     <dl class="dl-horizontal">   
         <dt>   
@@ -35,6 +35,6 @@
     </dl>   
 </div>   
 <div>   
-    <a asp-action="Editar" asp-route-id="@Model.ID">Editar</a> |   
+    <a asp-action="Editar" asp-route-id="@Model.Id">Editar</a> |   
     <a asp-action="Index">Voltar</a>   
 </div>

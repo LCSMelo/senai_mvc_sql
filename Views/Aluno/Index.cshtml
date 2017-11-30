@@ -1,11 +1,11 @@
-@model IEnumerable<cadastro_senai.Dominio.Cliente>   
+@model IEnumerable<cadastro_senai.Dominio.Aluno>   
       
 @{   
         ViewData["Title"] = "Index";   
     }   
 <h2>Index</h2>   
 <p>   
-    <a asp-action="Cadastrar">Cadastrar Novo Cliente</a>   
+    <a asp-action="Cadastrar">Cadastrar Novo Aluno</a>   
 </p>   
 <table class="table">   
     <thead>   
@@ -42,9 +42,9 @@
                     @Html.DisplayFor(modelItem => item.Idade)   
                 </td>   
                 <td>   
-                    <a asp-action="Editar" asp-route-id="@item.Id">Edit</a> |   
-                    <a asp-action="Detalhes" asp-route-id="@item.Id">Details</a> |   
-                    <a asp-action="Excluir" asp-route-id="@item.Id">Delete</a>   
+                    <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |   
+                    <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a> |   
+                    <a asp-action="Excluir" asp-route-id="@item.Id">Excluir</a>   
                 </td>   
             </tr>   
         }   

@@ -7,24 +7,24 @@ using System.Linq;
 
 namespace cadastro_senai.Controllers
 {
-    public class ClienteController : Controller
+    public class AlunoController : Controller
     {
-       ClienteRep objClienteRep = new ClienteRep();   
+       AlunoRep objAlunoRep = new AlunoRep();   
    
     // GET: /<controller>/   
         public IActionResult Index()   
         {   
-            List<Cliente> lstCliente = new List<Cliente>();  
+            List<Aluno> lstAluno = new List<Aluno>();  
             try
             {
-                lstCliente = objClienteRep.Listar().ToList();       
+                lstAluno = objAlunoRep.Listar().ToList();       
             }
             catch (System.Exception ex)
             {
-                System.Console.WriteLine(ex.Message);
+                TempData["Erro"] = ex.Message;
             }
 
-            return View(lstCliente);
+            return View(lstAluno);
             
         }   
 
@@ -36,46 +36,46 @@ namespace cadastro_senai.Controllers
         
         [HttpPost]     
         [ValidateAntiForgeryToken]     
-        public IActionResult Cadastrar([Bind] Cliente cliente)     
+        public IActionResult Cadastrar([Bind] Aluno Aluno)     
         {     
             if (ModelState.IsValid)     
             {     
-                //objClienteRep.Cadastrar(cliente);     
+                objAlunoRep.Cadastrar(Aluno);     
                 return RedirectToAction("Index");     
             }     
-            return View(cliente);     
+            return View(Aluno);     
         } 
 
         [HttpGet]   
-        public IActionResult Edit(int? id)   
+        public IActionResult Editar(int? id)   
         {   
             if (id == null)   
             {   
                 return NotFound();   
             }   
-            Cliente cliente = objClienteRep.BuscarClientePorId(id);   
+            Aluno Aluno = objAlunoRep.BuscarAlunoPorId(id);   
         
-            if (cliente == null)   
+            if (Aluno == null)   
             {   
                 return NotFound();   
             }   
-            return View(cliente);   
+            return View(Aluno);   
         }   
         
         [HttpPost]   
         [ValidateAntiForgeryToken]   
-        public IActionResult Editar(int id, [Bind]Cliente cliente)   
+        public IActionResult Editar(int id, [Bind]Aluno Aluno)   
         {   
-            if (id != cliente.Id)   
+            if (id != Aluno.Id)   
             {   
                 return NotFound();   
             }   
             if (ModelState.IsValid)   
             {   
-                //objClienteRep.Atualizar(cliente);   
+                objAlunoRep.Atualizar(Aluno);   
                 return RedirectToAction("Index");   
             }   
-            return View(cliente);   
+            return View(Aluno);   
         }  
 
         [HttpGet]   
@@ -85,13 +85,13 @@ namespace cadastro_senai.Controllers
             {   
                 return NotFound();   
             }   
-            Cliente cliente = objClienteRep.BuscarClientePorId(id);   
+            Aluno Aluno = objAlunoRep.BuscarAlunoPorId(id);   
         
-            if (cliente == null)   
+            if (Aluno == null)   
             {   
                 return NotFound();   
             }   
-            return View(cliente);   
+            return View(Aluno);   
         }
 
         [HttpGet]   
@@ -102,20 +102,20 @@ namespace cadastro_senai.Controllers
                 return NotFound();   
             }   
 
-            Cliente cliente = null;// objClienteRep.BuscarClientePorId(id);  
+            Aluno Aluno = objAlunoRep.BuscarAlunoPorId(id);  
         
-            if (cliente == null)   
+            if (Aluno == null)   
             {   
                 return NotFound();   
             }   
-            return View(cliente);   
+            return View(Aluno);   
         }   
         
         [HttpPost, ActionName("Excluir")]   
         [ValidateAntiForgeryToken]   
         public IActionResult ExclusaoConfirmada(int? id)   
         {   
-            objClienteRep.Excluir(id);   
+            objAlunoRep.Excluir(id);   
             return RedirectToAction("Index");   
         }
     }

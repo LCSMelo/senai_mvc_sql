@@ -12533,30 +12533,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CorujasDev\\.nuget\\packages\\": {},
+    "C:\\Users\\admin.DIGIPROD\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projetos_Internos\\vsc\\cadastro_senai\\cadastro_senai.csproj",
+      "projectUniqueName": "C:\\Users\\admin.DIGIPROD\\Documents\\Pessoal\\aulas_backend\\senai_mvc_sql\\cadastro_senai.csproj",
       "projectName": "cadastro_senai",
-      "projectPath": "G:\\Projetos_Internos\\vsc\\cadastro_senai\\cadastro_senai.csproj",
-      "packagesPath": "C:\\Users\\CorujasDev\\.nuget\\packages\\",
-      "outputPath": "G:\\Projetos_Internos\\vsc\\cadastro_senai\\obj\\",
+      "projectPath": "C:\\Users\\admin.DIGIPROD\\Documents\\Pessoal\\aulas_backend\\senai_mvc_sql\\cadastro_senai.csproj",
+      "packagesPath": "C:\\Users\\admin.DIGIPROD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin.DIGIPROD\\Documents\\Pessoal\\aulas_backend\\senai_mvc_sql\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\CorujasDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\admin.DIGIPROD\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
