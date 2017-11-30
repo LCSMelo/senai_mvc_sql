@@ -8,7 +8,7 @@ namespace cadastro_senai.Repositorio
 {
     public class AlunoRep
     {
-        string connectionString = @"Data Source=.\SqlExpress;Initial Catalog=CodeXP;Integrated Security=True";   
+        string connectionString = @"Data Source=.\SqlExpress;Initial Catalog=CodeXP; uid=sa; pwd=senai@123";   
         
    
         /// <summary>
